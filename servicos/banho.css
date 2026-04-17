@@ -1,0 +1,129 @@
+* {
+  font-family: "Trebuchet MS", sans-serif;
+}
+header {
+  background-color: #ffdfb0;
+  display: flex;
+  gap: 64px;
+  height: 70px;
+  align-items: center;
+}
+.menu ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #bdbbb9;
+  border-radius: 10px;
+  z-index: 10;
+  width: 200px;
+}
+
+.menu ul li:hover ul,
+.menu ul li ul:hover {
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #b98b6a;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  gap: 64px;
+  margin: 64px;
+  justify-content: center;
+}
+
+video {
+  border-radius: 10px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+#titulo1 {
+  color: #b98b6a;
+  font-size: 30px;
+  text-align: center;
+}
+
+#texto_banho {
+  color: #b98b6a;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.btn {
+  background-color: #b98b6a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin:20px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+footer {
+  background-image: url(/image/backgorund.png);
+  display: flex;
+  gap: 64px;
+  height: 300px;
+  align-items: start;
+  padding: 40px 0px;
+  justify-content: center;
+  margin: 0;
+}
+#logofooter {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+}
+h3 {
+  justify-content: center;
+  color: #b98b6a;
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+#contatos {
+  font-size: 20px;
+}
+
+#redes {
+  width: 300px;
+  height: 80px;
+}
+
+#pagamentos {
+  width: 500px;
+  height: 50px;
+}
