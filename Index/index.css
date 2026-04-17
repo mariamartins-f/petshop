@@ -43,7 +43,7 @@ a {
   color: #b98b6a;
   font-weight: bold;
   font-size: 1.125em;
-  padding: 0.9375em;
+  margin: 0.9375em;
 }
 
 video {
@@ -108,4 +108,39 @@ h3 {
 #pagamentos {
   width: 31.25em;
   height: 3.125em;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    gap: 1em;
+  }
+
+  .menu ul li a {
+    margin: 0.5em;
+  }
+
+  h2 {
+    height: auto;
+    margin: 1.25em 0em;
+  }
+
+  #servicos {
+    flex-direction: column;
+    padding: 0;
+    gap: 2.5em;
+    margin-bottom: 2.5em;
+  }
+  .linha-servicos div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .linha-servicos div a {
+    margin: 0;
+  }
+
+  .linha-servicos img {
+    max-width: calc(100vw - 3.125em);
+  }
 }
