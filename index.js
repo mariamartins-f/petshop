@@ -1,0 +1,6 @@
+document.write("<h2>Maria Isabel</h2>")
+document.write("<p>Twitter @petinhos</p>")
+document.write("<p>Instagram @petinhos</p>")
+document.write("<p>Facebook Petinhos</p>")
+document.write("<p>LinkedIn Petinhos</p>")
+document.write("<p>Localização: Rua dos Animais, 123, Cidade Pet</p>")
